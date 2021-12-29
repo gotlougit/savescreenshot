@@ -17,7 +17,8 @@ Right now you can only do a [temporary install](https://developer.mozilla.org/en
 
 Install extension, go to your Google Meet meeting, click on the camera, and select any option. It does seem to wait 1-2 minutes before taking the first screenshot but after that you will consistently get screenshots of your meeting in your Downloads folder, spaced 1 minute apart. To stop it from taking screenshots, close the window.
 
-Reloading the extension in ```about:debugging``` also stops it, so you may find that easier.
+Reloading the extension in ```about:debugging``` also stops it, so you may find that easier. 
+However, that seems to be buggier.
 
 ## Bugs
 
