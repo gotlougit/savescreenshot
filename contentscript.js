@@ -76,7 +76,7 @@ function Select() {
 
 async function OnMessage(request, sender, sendResponse) {
   if (request.type == "TakeScreenshot")
-    TakeScreenshot(request);
+    setInterval(TakeScreenshot, 60000, request);
 
   if (request.type == "TriggerOpen")
     TriggerOpen(request.content, request.filename);
